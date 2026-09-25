@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,6 +14,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <!-- HEADER -->
@@ -21,9 +23,8 @@
       <div class="container">
         <a class="navbar-brand fw-bold" href="#">Colección de Videojuegos</a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#menuPrincipal" aria-controls="menuPrincipal"
-                aria-expanded="false" aria-label="Abrir menú">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+          aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -111,8 +112,77 @@
   </section>
   <!-- FIN GALERÍA -->
 
+  <footer class="bg-dark text-white pt-5 pb-3 mt-auto border-top border-secondary">
+    <div class="container">
+      <div class="row gy-4">
+
+        <!-- Columna 1: Info del juego -->
+        <div class="col-lg-4 col-md-6">
+          <h5 class="fw-bold text-warning mb-3">🎮 Mi Videojuego</h5>
+          <p class="text-secondary small">
+            Una experiencia inmersiva llena de aventura, desafíos y acción. ¡Únete a la comunidad y vive la historia!
+          </p>
+          <div class="d-flex gap-3 fs-5">
+            <a href="#" class="text-white text-decoration-none"><i class="bi bi-discord"></i></a>
+            <a href="#" class="text-white text-decoration-none"><i class="bi bi-twitch"></i></a>
+            <a href="#" class="text-white text-decoration-none"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="text-white text-decoration-none"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+
+        <!-- Columna 2: Enlaces rápidos -->
+        <div class="col-lg-2 col-md-6">
+          <h5 class="fw-bold mb-3">Navegación</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Inicio</a></li>
+            <li class="mb-2"><a href="#historia" class="text-secondary text-decoration-none">Historia</a></li>
+            <li class="mb-2"><a href="#galeria" class="text-secondary text-decoration-none">Galería</a></li>
+            <li class="mb-2"><a href="#contacto" class="text-secondary text-decoration-none">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Soporte y Comunidad -->
+        <div class="col-lg-3 col-md-6">
+          <h5 class="fw-bold mb-3">Comunidad</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Foros oficiales</a></li>
+            <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Notas del parche</a></li>
+            <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Política de privacidad</a></li>
+            <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Términos del servicio</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 4: Boletín / Newsletter -->
+        <div class="col-lg-3 col-md-6">
+          <h5 class="fw-bold mb-3">Boletín Gamer</h5>
+          <p class="text-secondary small">Recibe avisos de actualizaciones y eventos exclusivos.</p>
+          <form onsubmit="event.preventDefault();">
+            <div class="input-group mb-3">
+              <input type="email" class="form-control form-control-sm bg-secondary text-white border-0 placeholder-glow"
+                placeholder="Tu correo electrónico" required>
+              <button class="btn btn-warning btn-sm fw-bold" type="submit">Unirse</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+      <hr class="border-secondary my-4">
+
+      <!-- Línea de Copyright -->
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+          <p class="small text-secondary mb-0">&copy; 2026 Mi Videojuego. Todos los derechos reservados.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <span class="badge bg-secondary">v1.0.0</span>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <!-- Bootstrap JS (necesario para el menú hamburguesa en móvil) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
